@@ -1,0 +1,82 @@
+
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: url("https://images.hdqwalls.com/wallpapers/abstract-desktop.jpg") no-repeat center/ cover;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+
+.login-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.reveal-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #0056b3;
+}
